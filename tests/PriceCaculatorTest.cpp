@@ -16,7 +16,7 @@ TEST(hello, should_return_100_when_give_cash_normal_and_price_100)
     EXPECT_DOUBLE_EQ(100, cash);
 }
 
-TEST(hello, should_return_90_when_give_cash_normal_and_price_100)
+TEST(hello, should_return_90_when_give_cash_percentoff_and_price_100)
 {
     // given
     PriceCalculator priceCaculator;
