@@ -1,4 +1,4 @@
-#include "PriceCaculator.h"
+#include "PriceCalculator.h"
 
 double PriceCal::PriceCalculator::AcceptCash(const DiscountType type, const double money) const noexcept
 {
