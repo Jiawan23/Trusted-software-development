@@ -3,7 +3,7 @@
 namespace PriceCal
 {
   // 采用class强枚举
-  enum class DiscountType { CASS_NORMAL, CAHS_PERCENTOFF, CASH_BACK};
+  enum class DiscountType { CASS_NORMAL, CASS_PERCENTOFF, CASS_BACK};
 
   class PriceCalculator final
   {
