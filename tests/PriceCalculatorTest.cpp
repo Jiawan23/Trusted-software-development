@@ -22,7 +22,7 @@ TEST(hello, should_return_90_when_give_cash_percentoff_and_price_100)
     PriceCalculator priceCalculator;
 
     // when
-    double cash = priceCalculator.AcceptCash(DiscountType::CASS_PERCENTOFF,100.0);
+    double cash = priceCalculator.AcceptCash(DiscountType::CASS_PERCENTOFF_90,100.0);
 
     // then
     EXPECT_DOUBLE_EQ(90, cash);
