@@ -10,6 +10,10 @@ double PriceCal::PriceCalculator::AcceptCash(const DiscountType type, const doub
     break;
   case DiscountType::CASS_PERCENTOFF:
     cash = money * 0.9;
+    break;
+  case DiscountType::CASS_BACK:
+    cash = money - 20 * (static_cast<int>(money) / 100 );
+    break;
   default:
     break;
   }
