@@ -8,7 +8,8 @@ double PriceCal::PriceCalculator::AcceptCash(const DiscountType type, const doub
   case DiscountType::CASS_NORMAL:
     cash = money;
     break;
-  
+  case DiscountType::CASS_PERCENTOFF:
+    cash = money * 0.9;
   default:
     break;
   }
